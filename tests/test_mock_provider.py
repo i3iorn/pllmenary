@@ -5,7 +5,7 @@ import pytest
 from pllmenary.config import ModelRef
 from pllmenary.messages import Role
 from pllmenary.models import ErrorKind, FinishReason, ModelError, PromptMessage
-from pllmenary.testing.mock import (
+from .mock_provider import (
     FailStep,
     HangStep,
     ModelRates,
