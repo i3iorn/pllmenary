@@ -9,7 +9,8 @@ the panel reaches consensus, or the run ends for another reason, the
 chairman synthesizes a final answer, breaking ties and resolving
 disagreement rather than simply tallying votes.
 
-The full design lives in the project's spec and implementation plan. This
+The full design lives in [`docs/spec.md`](docs/spec.md) and
+[`docs/implementation-plan.md`](docs/implementation-plan.md). This
 repository currently implements **Phase 0 (Skeleton)** of the plan:
 
 - `pllmenary.config` — the typed, validated configuration object.
